@@ -9,12 +9,12 @@ const Header = () => {
       <div className="flex items-center">
         <Image 
           src="/4.jpg" // Your image path
-          alt="Pookie's Logo"
+          alt="Pookie&apos;s Logo"
           width={50}
           height={50}
           className="rounded-full mr-2"
         />
-        <h1 className="text-pink-700 text-3xl md:text-4xl">Pookie's</h1>
+        <h1 className="text-pink-700 text-3xl md:text-4xl">Pookie&apos;s</h1>
       </div>
       <nav>
         <ul className="flex space-x-4 md:space-x-8">

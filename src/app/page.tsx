@@ -7,7 +7,7 @@ const Home = () => {
       <Header />
       
       <h1 className="text-center text-4xl md:text-5xl mt-4 text-pink-700">
-        Welcome to Pookie's!
+        Welcome to Pookie&apos;s!
       </h1>
       
       <p className="text-center mt-4 text-lg md:text-xl">
@@ -23,17 +23,17 @@ const Home = () => {
         </Link>
       </div>
 
-      <h2 className="text-center text-3xl md:text-4xl mt-6">Why Choose Pookie's?</h2>
+      <h2 className="text-center text-3xl md:text-4xl mt-6">Why Choose Pookie&apos;s?</h2>
       
       <p className="text-center mt-2 text-base md:text-lg">
-        At Pookie's, we celebrate creativity, connection, and all things fun! 
+        At Pookie&apos;s, we celebrate creativity, connection, and all things fun! 
         Whether you're here to shop or just hang out, there's something for everyone.
       </p>
 
       <h2 className="text-center text-3xl md:text-4xl mt-6">Join the Adventure!</h2>
       <p className="text-center mt-2 text-base md:text-lg">
         Be part of our quirky community! Get exclusive updates, events, and the legendary title of 
-        <span className="text-red-600"> Pookie's!</span>
+        <span className="text-red-600"> Pookie&apos;s!</span>
       </p>
 
       <div className="mt-8 flex justify-center">
