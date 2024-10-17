@@ -1,6 +1,7 @@
 // src/pages/products.js
 
 import Header from '../../components/Header';
+import Image from 'next/image'; // Import the Image component
 
 const products = [
   {
@@ -20,7 +21,7 @@ const products = [
   {
     id: 3,
     name: 'Green Pookie',
-    description: 'Special Legendry Pookie.',
+    description: 'Special Legendary Pookie.', // Fixed typo from "Legendry" to "Legendary"
     price: '1100pkr',
     image: '/111.jpg', // Replace with your actual image path
   },
@@ -41,7 +42,13 @@ const Products = () => {
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mt-6">
         {products.map(product => (
           <div key={product.id} className="border rounded-lg p-4">
-            <img src={product.image} alt={product.name} className="w-full h-32 object-cover mb-2" />
+            <Image
+              src={product.image}
+              alt={product.name}
+              width={500} // Add width for Next.js Image optimization
+              height={300} // Add height for Next.js Image optimization
+              className="w-full h-32 object-cover mb-2"
+            />
             <h2 className="text-xl text-center">{product.name}</h2>
             <p className="text-center">{product.description}</p>
             <p className="text-center font-bold">{product.price}</p>
