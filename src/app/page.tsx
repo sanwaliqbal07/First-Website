@@ -27,7 +27,7 @@ const Home = () => {
       
       <p className="text-center mt-2 text-base md:text-lg">
         At Pookie&apos;s, we celebrate creativity, connection, and all things fun! 
-        Whether you're here to shop or just hang out, there's something for everyone.
+        Whether you&apos;re here to shop or just hang out, there&apos;s something for everyone.
       </p>
 
       <h2 className="text-center text-3xl md:text-4xl mt-6">Join the Adventure!</h2>
@@ -43,7 +43,7 @@ const Home = () => {
       </div>
 
       <footer className="text-center mt-6 text-base md:text-lg">
-        <p>Thanks for stopping by! We can't wait to share our journey with you.</p>
+        <p>Thanks for stopping by! We can&apos;t wait to share our journey with you.</p>
       </footer>
     </div>
   );

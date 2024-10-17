@@ -20,7 +20,7 @@ const About = () => {
       </p>
       <h2 className="text-center text-2xl md:text-3xl mt-6">Join Us</h2>
       <p className="text-center mt-2 text-base md:text-lg">
-        You can join us by(idk). If you're wondering about the perks, you'll receive the mythical title <span className="text-red-700">Pookie&apos;s</span>.
+        You can join us by(idk). If you&apos;re wondering about the perks, you&apos;ll receive the mythical title <span className="text-red-700">Pookie&apos;s</span>.
       </p>
       <p className="text-center mt-6 text-base md:text-lg">
         Thank you for being a part of Pookie&apos;s journey (which started just a week ago!).
